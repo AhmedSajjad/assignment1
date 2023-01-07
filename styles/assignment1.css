@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    height: 800px;
+    background: url('../images/banner/banner2.png');
+    text-align: right;
+}
+
+.header-right {
+    padding-top: 220px;
+    padding-right: 230px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding-left: 230px;
+
+}
+
+.header-description {
+    color: #444343;
+    padding-left: 876px;
+
+}
+
+.button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    margin-top: 30px;
+    border: 0;
+    background: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+
+}
+
+/* Main style */
+main {
+
+    margin: 0;
+}
+
+/* Banner Style */
+.banner {
+    height: 700px;
+    width: 1100px;
+    margin: 130px 260px 160px 200px;
+    gap: 140px;
+    display: flex;
+
+}
+
+.banner-left {
+    height: 700px;
+
+}
+
+.banner-right {
+    height: 400px;
+    width: 400px;
+
+}
+
+.banner-right-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 270px;
+
+}
+
+.banner-right-description {
+    padding-top: 24px;
+    color: #444343;
+}
+
+/* My Plans */
+
+.plan {
+
+    text-align: center;
+    height: 300px;
+    width: 1140;
+    margin: 160px 230px;
+
+}
+
+.plans {
+    display: flex;
+    gap: 180px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.category-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.category-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Gradient Part */
+
+.watch {
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(0, 255, 136, 0.762));
+    background: url('../images/gradient2.png'), url('../images/watch.png');
+
+}
+
+.transparent {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+
+}
+
+.transparent-title {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.call-now {
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 20px 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 64px;
+}
+
+/* Contact Style  */
+.contact {
+    height: 580px;
+    background: #151414;
+    display: flex;
+    gap: 600px;
+
+
+}
+
+.contact-left {
+    width: 480px;
+    height: 320px;
+    padding-top: 130px;
+
+}
+
+.contact-left-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 230px;
+}
+
+.contact-left-description {
+    color: #FFFFFF;
+    margin-left: 230px;
+}
+
+.contact-left-email {
+    color: #FFFFFF;
+    margin-left: 230px;
+
+}
+
+.contact-left-phone {
+    color: #FFFFFF;
+    margin-left: 230px;
+
+}
+
+.contact a {
+    margin-left: 230px;
+    text-decoration: none;
+}
+
+.contact-right {
+    width: 350px;
+    height: 210px;
+}
+
+.contact-right-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-top: 130px;
+}
+.contact input[type="email"]{
+    margin-top: 24px;
+    border: 2x solid white;
+    width: 50%;
+    background-color: black;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+
+.subscribe{
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 64px;
+}
